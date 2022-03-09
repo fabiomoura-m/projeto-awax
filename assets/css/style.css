@@ -113,6 +113,9 @@ body {
   font-size: 12px;
   margin-top: 40px;
 }
+.banner__slideArea a:hover {
+  color: #ccc;
+}
 .banner__slidersPointer {
   width: 100vw;
   height: 20px;
