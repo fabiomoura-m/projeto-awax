@@ -3,9 +3,11 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 .header {
   height: 100px;
   background-color: #000000;
@@ -21,7 +23,8 @@ body {
   align-items: center;
 }
 .header__logo {
-  width: 129px;
+}
+.header__logo img {
 }
 .header__menu {
   flex: 1;
@@ -52,4 +55,12 @@ body {
 .active a {
   border-bottom: 5px solid #b28756;
   color: #ccc;
+}
+
+.banner {
+  height: calc(100vh - 100px);
+  background-color: #333;
+  background-image: url(../images/bg.jpg);
+  background-size: cover;
+  background-position: center;
 }
