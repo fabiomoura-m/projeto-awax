@@ -324,3 +324,9 @@ CSS SPECIFIC AREAS
 .section__projects--photoArea:hover .section__projects--photoInfo {
   display: flex;
 }
+.section__projects a {
+  margin-top: 20px;
+}
+.section__projects a:hover {
+  color: #ccc;
+}
