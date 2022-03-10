@@ -59,6 +59,19 @@ body {
   color: #ccc;
 }
 
+.button {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  background-color: #b28756;
+  border-radius: 20px;
+  font-weight: 600;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
 /* BANNER */
 .banner {
   height: calc(100vh - 100px);
@@ -103,18 +116,6 @@ body {
 .banner__slideArea h2 {
   text-transform: uppercase;
   margin-top: 20px;
-}
-.banner__slideArea a {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  text-transform: uppercase;
-  padding: 10px 30px;
-  background-color: #b28756;
-  border-radius: 20px;
-  font-weight: 600;
-  font-size: 12px;
-  margin-top: 40px;
 }
 .banner__slideArea a:hover {
   color: #ccc;
@@ -166,14 +167,14 @@ body {
 .section__body {
   max-width: 1140px;
   margin: auto;
-  background-color: #ccc;
 }
 
 .section__default.light {
   background-color: #f7f7f7;
 }
 
-.section__default.light .section__title {
+.section__default.light .section__title,
+.section__default.light .section__body {
   color: #000;
 }
 
@@ -181,6 +182,36 @@ body {
   background-color: #000;
 }
 
-.section__default.dark .section__title {
+.section__default.dark .section__title,
+.section__default.dark .section__body {
   color: #fff;
+}
+
+/* 
+
+CSS SPECIFIC AREAS
+
+ */
+
+.section__aboutUs {
+  display: flex;
+}
+.section__aboutUS--left {
+  flex: 1;
+}
+.section__aboutUS--left p {
+  font-size: 15px;
+  line-height: 1.5;
+}
+.section__aboutUS--left a:hover {
+  color: #ccc;
+}
+.section__aboutUs--right {
+  width: 500px;
+  text-align: center;
+}
+
+.section__aboutUs--right img {
+  width: 450px;
+  box-shadow: 0px 5px 10px #333;
 }
