@@ -241,3 +241,37 @@ CSS SPECIFIC AREAS
   font-size: 13px;
   color: #999;
 }
+
+.section__projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.section__projects--filters {
+  background-color: #eee;
+  border-radius: 30px;
+  border: 1px solid #ccc;
+  padding: 0px 15px;
+}
+.section__projects--filters ul {
+  display: flex;
+  list-style: none;
+}
+.section__projects--filters li {
+  padding: 15px 20px 12px;
+  font-size: 13px;
+  text-transform: uppercase;
+  border-right: 1px solid #ccc;
+  color: #555;
+  border-bottom: 3px solid #eee;
+  cursor: pointer;
+  user-select: none;
+}
+.section__projects--filters li:last-child {
+  border-right: none;
+}
+.section__projects--filters li:hover,
+.section__projects--filters li.active {
+  border-bottom: 3px solid #b28756;
+  color: #999;
+}
