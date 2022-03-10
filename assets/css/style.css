@@ -203,6 +203,9 @@ CSS SPECIFIC AREAS
   font-size: 15px;
   line-height: 1.5;
 }
+.section__aboutUS--left a {
+  margin-top: 20px;
+}
 .section__aboutUS--left a:hover {
   color: #ccc;
 }
@@ -274,4 +277,50 @@ CSS SPECIFIC AREAS
 .section__projects--filters li.active {
   border-bottom: 3px solid #b28756;
   color: #999;
+}
+
+.section__projects--photos {
+  display: flex;
+  width: 100vw;
+  max-width: 1140px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.section__projects--photo {
+  width: 280px;
+}
+.section__projects--photoArea {
+  margin: 10px;
+  width: 260px;
+  height: 160px;
+}
+.section__projects--photoArea img {
+  width: inherit;
+  height: inherit;
+}
+.section__projects--photoInfo {
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: inherit;
+  height: inherit;
+  color: #fff;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.section__projects--photoInfo h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.section__projects--photoInfo p {
+  font-size: 12px;
+  line-height: 1.5;
+  text-align: center;
+}
+.section__projects--photoArea:hover .section__projects--photoInfo {
+  display: flex;
 }
