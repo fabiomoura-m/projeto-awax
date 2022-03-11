@@ -142,7 +142,7 @@ body {
   background-color: #b28756;
 }
 
-/* SECTION */
+/* SECTION DEFAULT*/
 .section__default {
   padding-top: 50px;
   padding-bottom: 50px;
@@ -193,6 +193,7 @@ CSS SPECIFIC AREAS
 
  */
 
+/* Section About US */
 .section__aboutUs {
   display: flex;
 }
@@ -217,6 +218,8 @@ CSS SPECIFIC AREAS
   width: 450px;
   box-shadow: 0px 5px 10px #333;
 }
+
+/* Section Services */
 
 .section__services {
   display: flex;
@@ -244,6 +247,8 @@ CSS SPECIFIC AREAS
   font-size: 13px;
   color: #999;
 }
+
+/* Section Our Projects */
 
 .section__projects {
   display: flex;
@@ -278,7 +283,6 @@ CSS SPECIFIC AREAS
   border-bottom: 3px solid #b28756;
   color: #999;
 }
-
 .section__projects--photos {
   display: flex;
   width: 100vw;
@@ -331,6 +335,8 @@ CSS SPECIFIC AREAS
   color: #ccc;
 }
 
+/* Section Team */
+
 .section__bgTeam {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url('../../media/bg-team.jpg');
@@ -364,7 +370,6 @@ CSS SPECIFIC AREAS
   color: #000;
   padding: 30px;
 }
-
 .section__bgTeam .banner__slidersPointer {
   margin-top: 30px;
   height: 20px;
@@ -386,7 +391,6 @@ CSS SPECIFIC AREAS
 .section__bgTeam .slidersPointer__pointer.active {
   background-color: #b28756;
 }
-
 .section__team--avatar {
   width: 150px;
 }
@@ -418,6 +422,8 @@ CSS SPECIFIC AREAS
 .section__team--social a:hover {
   background-color: #b28756;
 }
+
+/* Section Clients */
 
 .sectionClients {
   display: flex;
@@ -474,6 +480,8 @@ CSS SPECIFIC AREAS
   background-color: #b28756;
 }
 
+/* Section Companies */
+
 .sectionCompanies__bg {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -486,6 +494,8 @@ CSS SPECIFIC AREAS
   flex: 1;
   text-align: center;
 }
+
+/* Section Plans */
 
 .sectionPlans {
   display: flex;
