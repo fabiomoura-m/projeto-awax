@@ -472,3 +472,16 @@ CSS SPECIFIC AREAS
 .sectionClients .slidersPointer__pointer.active {
   background-color: #b28756;
 }
+
+.sectionCompanies__bg {
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+.sectionCompanies {
+  display: flex;
+  align-items: center;
+}
+.sectionCompanie {
+  flex: 1;
+  text-align: center;
+}
