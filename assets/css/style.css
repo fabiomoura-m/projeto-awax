@@ -758,3 +758,61 @@ CSS SPECIFIC AREAS
 .sectionShare__item.pinterest a {
   background-color: #b71c29;
 }
+
+/* Section Contact */
+
+.sectionContact {
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+.sectionContact__form {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  width: 100%;
+}
+.sectionContact__form input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #bbb;
+  outline: none;
+  height: 30px;
+  font-size: 15px;
+  color: #999;
+}
+.sectionContact__form input::placeholder {
+  color: #999;
+  text-transform: uppercase;
+  font-size: 11px;
+}
+.form__nameAndEmail {
+  display: flex;
+  justify-content: space-between;
+}
+.form__nameAndEmail input {
+  flex: 1;
+}
+.form__nameAndEmail input[name='name'] {
+  margin-right: 20px;
+}
+.form__subject {
+  margin-top: 20px;
+}
+.form__message {
+  margin-top: 40px;
+}
+.form__subject input,
+.form__message input {
+  width: 100%;
+}
+.sectionContact__form .button {
+  border: none;
+  cursor: pointer;
+  width: 160px;
+  margin: auto;
+  margin-top: 40px;
+}
+.sectionContact__form .button:hover {
+  color: #ccc;
+}
