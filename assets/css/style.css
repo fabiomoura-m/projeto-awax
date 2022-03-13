@@ -697,3 +697,64 @@ CSS SPECIFIC AREAS
   color: #999;
   margin: auto;
 }
+
+/* Section Share */
+
+.sectionShare__bg {
+  padding: 20px 0px;
+  border-bottom: 1px solid #ccc;
+}
+.sectionShare {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sectionShare__legend {
+  display: flex;
+  align-items: center;
+}
+.sectionShare__legend img {
+  margin-right: 10px;
+}
+.sectionShare__legend span {
+  margin-right: 40px;
+  text-transform: uppercase;
+  color: #999;
+  font-weight: 600;
+  font-size: 12px;
+}
+.sectionShare__item {
+  display: flex;
+  align-items: center;
+}
+.sectionShare__item a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  background-color: #999;
+  border-radius: 100%;
+  margin-right: 5px;
+}
+.sectionShare__item span {
+  color: #bbb;
+  font-weight: bold;
+  font-size: 11px;
+  margin-right: 30px;
+}
+.sectionShare__item.twitter a {
+  background-color: #34c5f0;
+}
+.sectionShare__item.linkedin a {
+  background-color: #127cb4;
+}
+.sectionShare__item.facebook a {
+  background-color: #336297;
+}
+.sectionShare__item.googleplus a {
+  background-color: #e74237;
+}
+.sectionShare__item.pinterest a {
+  background-color: #b71c29;
+}
