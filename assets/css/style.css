@@ -193,6 +193,8 @@ CSS SPECIFIC AREAS
 
  */
 
+/* Section About Us */
+
 .section__aboutUs {
   display: flex;
 }
@@ -217,6 +219,8 @@ CSS SPECIFIC AREAS
   width: 450px;
   box-shadow: 0px 5px 10px #333;
 }
+
+/* Section Services */
 
 .section__services {
   display: flex;
@@ -244,6 +248,8 @@ CSS SPECIFIC AREAS
   font-size: 13px;
   color: #999;
 }
+
+/* Section Our Projects */
 
 .section__projects {
   display: flex;
@@ -330,6 +336,8 @@ CSS SPECIFIC AREAS
 .section__projects a:hover {
   color: #ccc;
 }
+
+/* Section Team */
 
 .section__bgTeam {
   background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
@@ -419,6 +427,8 @@ CSS SPECIFIC AREAS
   background-color: #b28756;
 }
 
+/* Section Clients */
+
 .sectionClients {
   display: flex;
   flex-direction: column;
@@ -474,6 +484,8 @@ CSS SPECIFIC AREAS
   background-color: #b28756;
 }
 
+/* Section Companies */
+
 .sectionCompanies__bg {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
@@ -486,6 +498,8 @@ CSS SPECIFIC AREAS
   flex: 1;
   text-align: center;
 }
+
+/* Section Plans */
 
 .sectionPlans {
   display: flex;
@@ -647,4 +661,43 @@ CSS SPECIFIC AREAS
 }
 .sectionPremium a:hover {
   color: #ccc;
+}
+
+/* Section Fats */
+
+.sectionFacts {
+  display: flex;
+}
+.sectionFact {
+  flex: 1;
+  text-align: center;
+  padding: 20px 40px;
+}
+.sectionFact__number {
+  font-size: 45px;
+  font-weight: bold;
+  color: #b28756;
+}
+.sectionFact__line {
+  width: 20px;
+  border-bottom: 3px solid #555;
+  margin: auto;
+  margin-top: 5px;
+}
+.sectionFact__title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  text-align: center;
+  flex: 1;
+  height: 45px;
+}
+.sectionFact__description {
+  flex: 1;
+  font-size: 13px;
+  margin-top: 10px;
+  color: #999;
+  margin: auto;
 }
