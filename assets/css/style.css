@@ -992,4 +992,14 @@ CSS SPECIFIC AREAS
   .section__aboutUs--right {
     width: auto;
   }
+  .section__services {
+    flex-wrap: wrap;
+  }
+  .section__service {
+    min-width: 50%;
+    margin-bottom: 30px;
+  }
+  .section__service:first-child {
+    border-left: none;
+  }
 }
