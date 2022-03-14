@@ -983,4 +983,13 @@ CSS SPECIFIC AREAS
     border: 0;
     color: #b28756;
   }
+  .section__aboutUs {
+    flex-direction: column;
+  }
+  .section__aboutUS--left {
+    margin: 0px 30px 30px;
+  }
+  .section__aboutUs--right {
+    width: auto;
+  }
 }
