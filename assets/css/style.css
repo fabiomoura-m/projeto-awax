@@ -1002,4 +1002,7 @@ CSS SPECIFIC AREAS
   .section__service:first-child {
     border-left: none;
   }
+  .section__team {
+    max-width: 580px;
+  }
 }
