@@ -1005,4 +1005,13 @@ CSS SPECIFIC AREAS
   .section__team {
     max-width: 580px;
   }
+  .sectionCompanies {
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 500px;
+  }
+  .sectionCompanie {
+    flex-basis: 150px;
+    margin-bottom: 20px;
+  }
 }
