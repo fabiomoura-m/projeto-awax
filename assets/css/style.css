@@ -1014,4 +1014,20 @@ CSS SPECIFIC AREAS
     flex-basis: 150px;
     margin-bottom: 20px;
   }
+  .sectionPlans {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    margin: auto;
+  }
+  .sectionPlan__item {
+    flex-basis: 200px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .sectionPlan__item:last-child {
+    margin-right: 10px;
+  }
 }
