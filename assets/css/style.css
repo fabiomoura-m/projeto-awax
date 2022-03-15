@@ -908,7 +908,7 @@ CSS SPECIFIC AREAS
   flex: 1;
   font-size: 13px;
   line-height: 1.5;
-  padding: 0px 30px;
+  margin: 0px 30px;
 }
 .footerArea__form {
   flex: 1;
@@ -917,6 +917,7 @@ CSS SPECIFIC AREAS
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-right: 10px;
 }
 .footerArea__form form {
   display: flex;
@@ -1002,6 +1003,9 @@ CSS SPECIFIC AREAS
   .section__service:first-child {
     border-left: none;
   }
+  .section__projects--filters ul {
+    flex-wrap: wrap;
+  }
   .section__team {
     max-width: 580px;
   }
@@ -1038,6 +1042,9 @@ CSS SPECIFIC AREAS
   .sectionFacts {
     flex-wrap: wrap;
   }
+  .sectionShare {
+    flex-wrap: wrap;
+  }
   .sectionMap {
     padding: 30px;
   }
@@ -1052,5 +1059,20 @@ CSS SPECIFIC AREAS
   }
   .sectionMap__infoItem:last-child {
     margin-bottom: 0px;
+  }
+  .footer {
+    padding: 20px;
+  }
+  .footerArea {
+    flex-wrap: wrap-reverse;
+  }
+  .footerArea__social p {
+    text-align: center;
+  }
+
+  .footerArea__form {
+    flex: 1;
+    height: 200px;
+    margin: auto;
   }
 }
