@@ -1014,6 +1014,11 @@ CSS SPECIFIC AREAS
     flex-basis: 150px;
     margin-bottom: 20px;
   }
+  .sectionCompanie:nth-child(4),
+  .sectionCompanie:nth-child(5),
+  .sectionCompanie:nth-child(6) {
+    margin-bottom: 0px;
+  }
   .sectionPlans {
     display: flex;
     flex-wrap: wrap;
@@ -1029,5 +1034,23 @@ CSS SPECIFIC AREAS
   }
   .sectionPlan__item:last-child {
     margin-right: 10px;
+  }
+  .sectionFacts {
+    flex-wrap: wrap;
+  }
+  .sectionMap {
+    padding: 30px;
+  }
+  .sectionMap__area {
+    width: auto;
+  }
+  .sectionMap__info {
+    width: auto;
+  }
+  .sectionMap__infoItem {
+    margin-bottom: 20px;
+  }
+  .sectionMap__infoItem:last-child {
+    margin-bottom: 0px;
   }
 }
