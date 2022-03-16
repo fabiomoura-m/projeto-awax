@@ -951,6 +951,23 @@ CSS SPECIFIC AREAS
 .footerArea__form .button:hover {
   color: #ccc;
 }
+.scrollButton {
+  width: 45px;
+  height: 45px;
+  border-radius: 15px;
+  background-color: #b28756;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2;
+  cursor: pointer;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+.scrollButton img:hover {
+  color: #ccc;
+}
 
 /* Responsividade */
 

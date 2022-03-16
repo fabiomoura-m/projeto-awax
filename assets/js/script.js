@@ -3,6 +3,7 @@ const slideB = document.querySelector('.pointerB');
 const slideC = document.querySelector('.pointerC');
 const sliders = document.querySelector('.banner__sliders');
 const menu = document.querySelector('.header_menuOpener');
+const btnScroll = document.querySelector('.scrollButton');
 
 function changeLayoutA() {
   clean();
@@ -37,3 +38,30 @@ function openMenu() {
 }
 
 menu.addEventListener('click', openMenu);
+
+// Função para subir a tela
+function upScreen() {
+  window.scrollTo({
+    top: 0,
+    left: 0,
+    behavior: 'smooth'
+  });
+}
+
+btnScroll.addEventListener('click', upScreen);
+
+// Função que verifica para o botão do scroll aparecer apenas quando a posição do scroll em Y for acima de 500.
+function toggleButtonScroll() {
+  //Condição para realizar apenas se a tela tiver no mínimo 768px de largura.
+  if (window.matchMedia('(min-width: 768px)').matches) {
+    if (window.scrollY < 500) {
+      // ocultar o botao
+      document.querySelector('.scrollButton').style.display = 'none';
+    } else {
+      // mostrar o botao
+      document.querySelector('.scrollButton').style.display = 'flex';
+    }
+  }
+}
+
+window.addEventListener('scroll', toggleButtonScroll);
