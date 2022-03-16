@@ -37,7 +37,8 @@ body {
 .header_menuOpener {
   display: none;
 }
-.header__menuNavigation {
+.header__menuNavigation.openMobile {
+  display: block;
 }
 .header__menuList {
   list-style: none;

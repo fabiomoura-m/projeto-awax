@@ -2,6 +2,7 @@ const slideA = document.querySelector('.pointerA');
 const slideB = document.querySelector('.pointerB');
 const slideC = document.querySelector('.pointerC');
 const sliders = document.querySelector('.banner__sliders');
+const menu = document.querySelector('.header_menuOpener');
 
 function changeLayoutA() {
   clean();
@@ -27,3 +28,12 @@ function clean() {
 slideA.addEventListener('click', changeLayoutA);
 slideB.addEventListener('click', changeLayoutB);
 slideC.addEventListener('click', changeLayoutC);
+
+// Função para abrir o menu lateral no tablet e mobile
+function openMenu() {
+  const headerNav = document.querySelector('.header__menuNavigation');
+  console.log('clicou');
+  headerNav.classList.toggle('openMobile');
+}
+
+menu.addEventListener('click', openMenu);
