@@ -1190,6 +1190,7 @@ CSS SPECIFIC AREAS
   }
   .sectionPremium .banner__slideArea {
     flex-direction: column;
+    padding-bottom: 0px;
   }
   .sectionPremium--left {
     text-align: center;
@@ -1246,7 +1247,10 @@ CSS SPECIFIC AREAS
     margin-right: 0;
   }
   .sectionShare__item span {
-    margin: 0;
+    margin: 0px;
+  }
+  .sectionShare__item:last-child {
+    margin-right: 0px;
   }
   .sectionContact__form {
     margin-right: 30px;
