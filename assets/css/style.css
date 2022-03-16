@@ -1076,3 +1076,237 @@ CSS SPECIFIC AREAS
     margin: auto;
   }
 }
+@media (max-width: 450px) {
+  .header_menuOpener {
+    display: block;
+    width: 35px;
+    margin-right: 30px;
+  }
+  .header__menuNavigation {
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 70vw;
+    height: calc(100vh - 100px);
+    top: 100px;
+    right: 0;
+    display: none;
+  }
+  .header__menuList {
+    flex-direction: column;
+  }
+  .header__menuItem a {
+    font-weight: bold;
+    height: 60px;
+    font-size: 17px;
+    margin-left: 30px;
+    border: none;
+  }
+  .header__menuItem a:hover,
+  .active a {
+    border: 0;
+    color: #b28756;
+  }
+  .banner__slideArea h1 {
+    font-size: 30px;
+  }
+  .banner__slideArea h2 {
+    font-size: 17px;
+  }
+  .section__aboutUs {
+    flex-direction: column;
+  }
+  .section__aboutUS--left {
+    margin: 0px 30px 30px;
+  }
+  .section__aboutUs--right {
+    margin-left: 30px;
+    margin-right: 30px;
+    width: auto;
+  }
+  .section__aboutUs--right img {
+    width: 100%;
+  }
+  .section__services {
+    flex-wrap: wrap;
+  }
+  .section__service {
+    min-width: 100%;
+    margin-bottom: 10px;
+    border: none;
+  }
+  .section__service:first-child {
+    border-left: none;
+  }
+  .section__projects--filters {
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 0px 20px;
+  }
+  .section__projects--filters ul {
+    flex-wrap: wrap;
+  }
+  .section__projects--filters li {
+    padding: 10px;
+    font-size: 10px;
+    flex: 1;
+  }
+  .section__team {
+    max-width: 280px;
+  }
+  .sectionClients__description {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .sectionCompanies {
+    flex-wrap: wrap;
+    margin: auto;
+    max-width: 500px;
+  }
+  .sectionCompanie {
+    flex-basis: 150px;
+    margin-bottom: 20px;
+  }
+  .sectionCompanie:nth-child(4),
+  .sectionCompanie:nth-child(5),
+  .sectionCompanie:nth-child(6) {
+    margin-bottom: 0px;
+  }
+  .sectionPlans {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    margin: auto;
+  }
+  .sectionPlan__item {
+    flex-basis: 280px;
+    margin: 0;
+    margin-bottom: 15px;
+
+    padding: 10px;
+  }
+  .sectionPlan__item:last-child {
+    margin: 0;
+  }
+  .sectionPremium .banner__slideArea {
+    flex-direction: column;
+  }
+  .sectionPremium--left {
+    text-align: center;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  .sectionPremium--left img {
+    margin: auto;
+    width: 280px;
+  }
+  .sectionPremium--right {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .sectionFacts {
+    flex-wrap: wrap;
+  }
+  .sectionFact {
+    flex-basis: 280px;
+    padding: 15px 30px;
+  }
+  .sectionFact:first-child {
+    padding-top: 0px;
+  }
+  .sectionFact__title {
+    height: auto;
+  }
+  .sectionShare {
+    flex-wrap: wrap;
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .sectionShare__legend {
+    flex-basis: 350px;
+    justify-content: center;
+    margin-bottom: 10px;
+    /* flex: 1; */
+  }
+  .sectionShare__legend img {
+    margin-right: 0;
+    display: none;
+  }
+  .sectionShare__legend span {
+    margin: auto;
+  }
+  .sectionShare__item {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .sectionShare__item a {
+    margin-bottom: 5px;
+    margin-right: 0;
+  }
+  .sectionShare__item span {
+    margin: 0;
+  }
+  .sectionContact__form {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+  .form__nameAndEmail {
+    display: block;
+  }
+  .form__nameAndEmail input {
+    margin-top: 30px;
+    width: 100%;
+  }
+  .form__nameAndEmail input:first-child {
+    margin-top: 0;
+  }
+  .form__subject {
+    width: 100%;
+    margin-top: 30px;
+  }
+  .form__message {
+    margin-top: 30px;
+  }
+  .sectionMap {
+    padding: 0px;
+    padding-bottom: 250px;
+  }
+  .sectionMap__area {
+    width: auto;
+  }
+  .sectionMap__info {
+    width: auto;
+  }
+  .sectionMap__infoItem {
+    margin-bottom: 20px;
+    line-height: 1.5;
+  }
+  .sectionMap__infoItem:last-child {
+    margin-bottom: 0px;
+  }
+  .footerArea {
+    margin-right: 30px;
+    margin-left: 30px;
+    flex-wrap: wrap-reverse;
+  }
+  .footerArea__message {
+    flex-basis: 300px;
+    margin: 0;
+    margin-top: 30px;
+  }
+  .footerArea__form {
+    height: 180px;
+    margin: auto;
+  }
+  .footerArea__social {
+    margin-top: 30px;
+  }
+  .footerArea__social--icons {
+    margin-bottom: 30px;
+  }
+  .footerArea__social p {
+    text-align: center;
+  }
+}
